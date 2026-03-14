@@ -1,0 +1,101 @@
+[
+  {
+    "type": "document",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "example_tag",
+          "named": true
+        },
+        {
+          "type": "param_tag",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "example_tag",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "example_content",
+          "named": true
+        },
+        {
+          "type": "tag_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "param_name",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "param_tag",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "param_description",
+          "named": true
+        },
+        {
+          "type": "param_name",
+          "named": true
+        },
+        {
+          "type": "tag_name",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "description",
+    "named": true
+  },
+  {
+    "type": "example_content",
+    "named": true
+  },
+  {
+    "type": "param_description",
+    "named": true
+  },
+  {
+    "type": "tag_name",
+    "named": true
+  },
+  {
+    "type": "type",
+    "named": true
+  }
+]
